@@ -205,7 +205,7 @@ La causa: escribir el objetivo como `lpSum(T[j] - r[j])` deja una **constante** 
 
 La corrección fue cargar la constante en una variable fija en 1, para que el solver la vea como un término lineal más. `correr.py` ahora aborta si detecta cualquier constante en el objetivo, para que no vuelva a pasar inadvertido.
 
-Vale la pena mencionarlo en el informe: es justo el tipo de detalle que separa "el modelo corrió" de "el modelo está bien".
+Vale la pena mencionarlo: es justo el tipo de detalle que separa "el modelo corrió" de "el modelo está bien".
 
 ---
 
