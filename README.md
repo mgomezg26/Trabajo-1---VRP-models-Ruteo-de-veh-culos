@@ -158,7 +158,7 @@ Medido, no supuesto:
 
 La licencia que viene con `pip install gurobipy` admite 2000 variables y 2000 restricciones. Por eso `correr.py` usa **Gurobi para n ≤ 20 y HiGHS para n = 25 y 30**.
 
-Esto hay que decirlo en el informe: en n = 25 y 30 **el gap y el tiempo son de HiGHS, no de Gurobi**, y no son directamente comparables con los de las otras instancias. Si consigues la licencia académica (gratis con el correo institucional), fuerza Gurobi en todas con `--solver gurobi` y quedan homogéneas.
+En n = 25 y 30 **el gap y el tiempo son de HiGHS, no de Gurobi**, y no son directamente comparables con los de las otras instancias. Si consigues la licencia académica (gratis con el correo institucional), fuerza Gurobi en todas con `--solver gurobi` y quedan homogéneas.
 
 ### El límite de tiempo usado
 
