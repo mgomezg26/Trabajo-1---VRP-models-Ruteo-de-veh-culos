@@ -22,7 +22,7 @@ Guía para entender el código y correrlo.
 
 ## 2. Requisitos
 
-Ya quedaron instalados en tu máquina:
+Tienen que quedar instalados en tu máquina:
 
 ```bash
 python -m pip install gurobipy numpy pandas matplotlib pulp highspy
