@@ -221,7 +221,7 @@ Vale la pena mencionarlo: es justo el tipo de detalle que separa "el modelo corr
 | `rutas_usadas` | Rutas realmente usadas, que puede ser menor que `K` |
 | `violaciones` | Cuántas restricciones viola la solución según el validador. **Debe ser 0 en todas.** |
 
-Ojo con dos distinciones que el informe debe respetar:
+Ojo con dos distinciones:
 
 - **`infactible` no es lo mismo que `limite (sin sol.)`.** Solo la primera prueba que no existe solución.
 - **`rutas_usadas ≤ K`**: la restricción es un techo, no una igualdad.
