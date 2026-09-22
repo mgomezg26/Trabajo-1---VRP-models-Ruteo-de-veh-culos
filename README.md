@@ -68,7 +68,6 @@ Para la versión final con el límite de 1 hora que pide el enunciado:
 python lote.py --que principal --procesos 3 --tiempo 3600 --hilos 2
 ```
 
-Con `--procesos 3 --hilos 2` se usan los 6 núcleos físicos de la máquina. Conecta el equipo a la corriente y desactiva la suspensión: si Windows duerme, las corridas mueren.
 
 ### Paso 5 — Las comparaciones (ítems 3 y 4 del enunciado)
 
